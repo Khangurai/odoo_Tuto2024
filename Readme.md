@@ -111,8 +111,8 @@ in xml file
 </odoo>
 ```
 ဒီအထိကမပေါ်သေးဘူး  menu မှာ 
-`menu`မှာပေါ်ချင်ရင်settings\user interface\menu items
-မှာပြင်ပေးမှ ရမယ်
+
+`menu`မှာပေါ်ချင်ရင်settings\user interface\menu items မှာပြင်ပေးမှ ရမယ်
 
 
 
