@@ -116,6 +116,8 @@ in xml file
 
 check this [youtube](https://www.youtube.com/watch?v=jdsP7RQ-8Hs&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=7) how to create sub menu
 
+![logo](https://github.com/Khangurai/odoo_Tuto2024/blob/main/assests/1.png)
+
 >[!NOTE]
 >တစ်ခုနဲ့တစ်ခုကို link ချိတ်ပေးရမယ်
 >
