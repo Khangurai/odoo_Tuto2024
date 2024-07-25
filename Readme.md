@@ -46,14 +46,27 @@ custom modules/
 >guests.py
 
 ```
-from odoo import api, models, fields,
+from odoo import api, models,fields
 
 class HotelGuests(models.Model):
     _name = 'hotel.guests'
     _description = 'Hotel Guests'
 
     ref = fields.Char(string='Ref')
+    name = fields.Char(string='Name')
+    dob = fields.Datetime(string='Date of Birth')
+    age = fields.Integer(string='Age')
+    gender = fields.Selection([('male','Male'), ('female','Female')], string='Gender')
+    active = fields.Boolean(string='Active', default = True)
+```
+>models/init py
+```
+from . import guests
+```
 
+>main init file
+```
+from . import models
 ```
 
 
