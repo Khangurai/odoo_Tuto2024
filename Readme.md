@@ -114,20 +114,10 @@ in xml file
 
 `menu`မှာပေါ်ချင်ရင်settings\user interface\menu items မှာပြင်ပေးမှ ရမယ်
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+check this [youtube](https://www.youtube.com/watch?v=jdsP7RQ-8Hs&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=7) how to create sub menu
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+>တစ်ခုနဲ့တစ်ခုကို link ချိတ်ပေးရမယ်
+>တစ်ခုခုပေါ်အောင်action တစ်ခုထည့်ပေး
 
 
     
