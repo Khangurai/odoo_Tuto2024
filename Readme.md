@@ -116,8 +116,9 @@ in xml file
 
 check this [youtube](https://www.youtube.com/watch?v=jdsP7RQ-8Hs&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=7) how to create sub menu
 
+>[!NOTE]
 >တစ်ခုနဲ့တစ်ခုကို link ချိတ်ပေးရမယ်
+>
 >တစ်ခုခုပေါ်အောင်action တစ်ခုထည့်ပေး
-
 
     
