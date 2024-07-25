@@ -1,3 +1,36 @@
+Fsfdasdffasdfa![](https://github.com/Khangurai/odoo_Tuto2024/blob/main/assests/1.png "logo")
+
+`sfasdfasfdasddfasfdasdfa`
+
+    import google.generativeai as genai
+    import os
+    try:
+    
+        GOOGLE_API_KEY='AIzaSyBzVMMosxIHve7nqGzTkWpGahCMVVYIT5o'
+        genai.configure(api_key=GOOGLE_API_KEY)
+    
+        model = genai.GenerativeModel('gemini-1.0-pro-latest')
+        response = model.generate_content("The opposite of hot is")
+        print(response.text)
+    except Exception as e:
+        print(e)
+
+
+```python
+import google.generativeai as genai
+import os
+try:
+
+    GOOGLE_API_KEY='AIzaSyBzVMMosxIHve7nqGzTkWpGahCMVVYIT5o'
+    genai.configure(api_key=GOOGLE_API_KEY)
+
+    model = genai.GenerativeModel('gemini-1.0-pro-latest')
+    response = model.generate_content("The opposite of hot is")
+    print(response.text)
+except Exception as e:
+    print(e)
+```
+
 ### Features
 
 - Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
