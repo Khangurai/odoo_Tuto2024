@@ -18,6 +18,9 @@ custom modules/
 
 > update app list
 
+------------
+
+
 # To creat a icon of module 
 ```
 custom modules/
@@ -29,6 +32,9 @@ custom modules/
     └── __init.py__
 ```
 > then upgrade the module
+
+
+------------
 
 
 # To create a database Model
@@ -92,6 +98,10 @@ psql -U postgres -d demo_db
 ```
 select * from hotel_guests
 ```
+
+------------
+
+
 # To create menu
 ```
 custom modules/
@@ -138,6 +148,9 @@ check this [youtube](https://www.youtube.com/watch?v=jdsP7RQ-8Hs&list=PLqRRLx0cl
 
 ![logo](https://github.com/Khangurai/odoo_Tuto2024/blob/main/assests/1.png)
 
+------------
+
+
 # To create window action 
 
 ```
@@ -180,6 +193,9 @@ add path to manifest file
 ],
 ```
 to check window action in settings\window action
+
+------------
+
 
 # To link windows action and Menu items
 add action in menu.xml
