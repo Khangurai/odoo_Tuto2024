@@ -1,21 +1,24 @@
-To create module
+#To create module
 
+```
 custom modules/
 └── hotel_management/
     ├── __manifest.py__
     └── __init.py__
-
-add json format in manifest
+```
+>add json format in manifest
+```
 {
     'name':'Hotel Management'
 }
+```
 
-turn on active developer mode
+>turn on active developer mode
 
-update app list
+>update app list
 
-To creat a icon of module 
-
+#To creat a icon of module 
+```
 custom modules/
 ├── hotel_management
 └── static/
@@ -23,12 +26,12 @@ custom modules/
     │   └── icon.png
     ├── __manifest.py__
     └── __init.py__
+```
+>then upgrade the module
 
-then upgrade the module
 
-
-To create a database Model
-
+# To create a database Model
+```
 custom modules/
 └── hotel_management/
     ├── models/
@@ -39,7 +42,7 @@ custom modules/
         │   └── icon.png
         ├── __manifest.py__
         └── __init.py__
-
+```
 
 
 
