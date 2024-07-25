@@ -7,7 +7,8 @@ custom modules/
     └── __init.py__
 ```
 > add json format in manifest
-```
+
+```python
 {
     'name':'Hotel Management'
 }
@@ -45,7 +46,7 @@ custom modules/
 ```
 >guests.py
 
-```
+```python
 from odoo import api, models,fields
 
 class HotelGuests(models.Model):
@@ -60,17 +61,20 @@ class HotelGuests(models.Model):
     active = fields.Boolean(string='Active', default = True)
 ```
 >models/init py
+
 ```
 from . import guests
 ```
 
 >main init file
+
 ```
 from . import models
 ```
 - to check in settings\technical\database\models
 - to check in models in database
 - open terminal
+
 ```
 psql -U postgres -d demo_db
 ```
@@ -78,10 +82,13 @@ psql -U postgres -d demo_db
 - database - demo_db
 - you can aslo check in pgadmin4
 - select database `demo_db` and type query 
+
 ```
 psql -U postgres -d demo_db
 ```
+
 >and type query
+
 ```
 select * from hotel_guests
 ```
@@ -101,7 +108,7 @@ custom modules/
     └── __init.py__
 ```    
 in xml file 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <menuitem id=""
@@ -111,7 +118,7 @@ in xml file
 </odoo>
 ```
 add path to manifest file
-```
+```python
 'data':[  
     'views/menu.xml',  
 ],
@@ -167,7 +174,7 @@ add file in guests_view.xml
 </odoo>
 ```
 add path to manifest file
-```
+```python
 'data':[  
     'views/guests_view.xml',  
 ],
@@ -183,9 +190,3 @@ add action in menu.xml
               parent="menu_guests_master"
               sequence="0"/>
 ```
-
-
-
-
-
-    
