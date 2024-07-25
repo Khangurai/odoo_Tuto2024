@@ -68,16 +68,16 @@ from . import guests
 ```
 from . import models
 ```
->to check in settings\technical\database\models
->to check in models in database
->open terminal
+- to check in settings\technical\database\models
+- to check in models in database
+- open terminal
 ```
 psql -U postgres -d demo_db
 ```
->username - postgres
->database - demo_db
->you can aslo check in pgadmin4
->select database **demo_db** and type query 
+- username - postgres
+- database - demo_db
+- you can aslo check in pgadmin4
+- select database `demo_db` and type query 
 ```
 psql -U postgres -d demo_db
 ```
