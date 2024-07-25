@@ -1,4 +1,4 @@
-#To create module
+# To create module
 
 ```
 custom modules/
@@ -17,7 +17,7 @@ custom modules/
 
 >update app list
 
-#To creat a icon of module 
+# To creat a icon of module 
 ```
 custom modules/
 ├── hotel_management
