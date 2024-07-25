@@ -208,20 +208,20 @@ MIT
    [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
 
 
-.
-└── Edit me to generate/
-    ├── a/
-    │   └── nice/
-    │       └── tree/
-    │           ├── diagram!
-    │           └── :)
-    └── Use indentation/
-        ├── to indicate/
-        │   ├── file
-        │   ├── and
-        │   ├── folder
-        │   └── nesting.
-        └── You can even/
-            └── use/
-                ├── markdown
-                └── bullets!
+<p class="has-line-data" data-line-start="192" data-line-end="209">my_project/<br>
+Edit me to generate/<br>
+├── a/<br>
+│   └── nice/<br>
+│       └── tree/<br>
+│           ├── diagram!<br>
+│           └── :)<br>
+└── Use indentation/<br>
+├── to indicate/<br>
+│   ├── file<br>
+│   ├── and<br>
+│   ├── folder<br>
+│   └── nesting.<br>
+└── You can even/<br>
+└── use/<br>
+├── markdown<br>
+└── bullets!</p>
