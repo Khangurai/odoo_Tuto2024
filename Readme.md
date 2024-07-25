@@ -85,8 +85,34 @@ psql -U postgres -d demo_db
 ```
 select * from hotel_guests
 ```
+# To create menu
+```
+custom modules/
+└── hotel_management/
+    ├── views/
+    │   └── menu.xml
+    ├── models/
+    │   ├── guests.py
+    │   └── __init.py__
+    ├── static/
+    │   └── description/
+    │       └── icon.png
+    ├── __manifest.py__
+    └── __init.py__
+```    
+in xml file 
+```
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id=""
+              name=""
+              sequence="0"/>
 
-
+</odoo>
+```
+ဒီအထိကမပေါ်သေးဘူး  menu မှာ 
+`menu`မှာပေါ်ချင်ရင်settings\user interface\menu items
+မှာပြင်ပေးမှ ရမယ်
 
 
 
