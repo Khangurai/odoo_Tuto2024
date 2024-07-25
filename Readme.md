@@ -186,14 +186,6 @@ add action in menu.xml
 
 
 
-<font color="red">This text is red!</font>
-
-
-
-
-
-
-
 
 
     
