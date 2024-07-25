@@ -110,17 +110,80 @@ in xml file
 
 </odoo>
 ```
+add path to manifest file
+```
+'data':[  
+    'views/menu.xml',  
+],
+```
+
 ဒီအထိကမပေါ်သေးဘူး  menu မှာ 
 
 `menu`မှာပေါ်ချင်ရင်settings\user interface\menu items မှာပြင်ပေးမှ ရမယ်
 
 check this [youtube](https://www.youtube.com/watch?v=jdsP7RQ-8Hs&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=7) how to create sub menu
 
-![logo](https://github.com/Khangurai/odoo_Tuto2024/blob/main/assests/1.png)
 
 >[!NOTE]
 >တစ်ခုနဲ့တစ်ခုကို link ချိတ်ပေးရမယ်
 >
 >တစ်ခုခုပေါ်အောင်action တစ်ခုထည့်ပေး
+
+![logo](https://github.com/Khangurai/odoo_Tuto2024/blob/main/assests/1.png)
+
+# To create window action 
+
+```
+custom modules/
+└── hotel_management/
+    ├── views/
+    │   ├── menu.xml
+    │   └── guests_view.xml
+    ├── models/
+    │   ├── guests.py
+    │   └── __init.py__
+    ├── static/
+    │   └── description/
+    │       └── icon.png
+    ├── __manifest.py__
+    └── __init.py__
+```
+add file in guests_view.xml
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_hotel_guests" model="ir.actions.act_window">
+            <field name="name">Guests</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hotel.guests</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create a new product
+                </p>
+            </field>
+        </record>
+</odoo>
+```
+add path to manifest file
+```
+'data':[  
+    'views/guests_view.xml',  
+],
+```
+to check window action in settings\window action
+
+
+
+
+
+
+
+
+
+
+
+
 
     
