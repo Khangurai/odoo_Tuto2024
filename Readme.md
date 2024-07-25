@@ -174,6 +174,16 @@ add path to manifest file
 ```
 to check window action in settings\window action
 
+# To link windows action and Menu items
+add action in menu.xml
+```
+<menuitem id="menu_guests"
+              name="Guests"
+              action="action_hotel_guests"
+              parent="menu_guests_master"
+              sequence="0"/>
+```
+
 
 
 
