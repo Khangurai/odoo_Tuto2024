@@ -100,7 +100,7 @@ just add **`filter domain`**  code like this
 ```xml
 <field name = "name" string="Guest Name" filter_domain="['|',('name','ilike',self),('age','ilike',self),('code','ilike',self)]"/>
 ```
-
+if you not clear check this [youtube](https://www.youtube.com/watch?v=zPJrnQ8YUms&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=13)
 
 
 
