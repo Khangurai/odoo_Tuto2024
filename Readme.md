@@ -206,3 +206,48 @@ add action in menu.xml
               parent="menu_guests_master"
               sequence="0"/>
 ```
+# How to Access Right
+
+
+------------
+
+# To set icon for menu
+```
+hotel_B/
+├── models/
+│   ├── __init__.py
+│   └── guest.py
+├── static/
+│   └── description/
+│       └── hotel.png
+│       └── icon.png
+├── security/
+│   └── ir.model.access.csv
+├── views/
+│   ├── guest_view.xml
+│   └── menu.xml
+├── __init__.py
+└── __manifest__.py
+```
+
+first download web_responsive 15
+and add custom modlues folder 
+
+
+in menu.xml
+```xml
+<?xml version = "1.0" encoding = "utf-8" ?>
+<odoo>
+
+   <menuitem id = "menu_hotel_root"
+             name = "Hotel"
+             web_icon = "hotel_B,static/description/hotel.png"
+             sequence = "0"/>
+
+   <menuitem id = "menu_guest_master"
+             name = "Guest Details"
+             parent = "menu_hotel_root"
+             sequence = "0"/>
+</odoo>
+```
+
