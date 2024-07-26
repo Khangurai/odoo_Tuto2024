@@ -23,7 +23,7 @@ add this code in guest_view.xml
 > [!TIP]
 >if you create sheet view fom just create `<sheet>` tag between `<form>` and `<group>` tag
 
-[![devide view form](2 "devide view form")](https://github.com/Khangurai/odoo_Tuto2024/blob/main/assests/2.png "devide view form")
+![ViewForm](https://github.com/Khangurai/odoo_Tuto2024/blob/main/assests/2.png)
 
 >**to devide the form group like this** 
 
