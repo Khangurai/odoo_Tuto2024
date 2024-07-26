@@ -45,3 +45,34 @@ add this code in guest_view.xml
 </form>
 ```
 
+
+------------
+
+# How to define a Tree view
+
+view form/list/tree တွေပြောင်းမယ်ဆိုရင် windows action ရဲ့  xml ထဲမှာ ပဲ့ပြောင်းရုံပဲ့ view type ပြောင်းရုံပဲ့
+
+add befor the form view 
+i think this view type is order by window action 
+so you see the first one is tree view `(primary view)`
+and then you add the record u'll see  `(form view)`
+```xml
+<record id="view_hotel_guest_tree" model="ir.ui.view">
+            <field name="model">hotel.guest.tree</field>
+            <field name="model">hotel.guest</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name = "name" string="Guest Name"/>
+                    <field name = "age"/>
+                    <field name = "gender"/>
+                </tree>
+            </field>
+     </record>
+```
+
+
+
+
+
+
+
