@@ -101,6 +101,36 @@ just add **`filter domain`**  code like this
 <field name = "name" string="Guest Name" filter_domain="['|',('name','ilike',self),('age','ilike',self),('code','ilike',self)]"/>
 ```
 if you not clear check this [youtube](https://www.youtube.com/watch?v=zPJrnQ8YUms&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=13)
+# How To Add Filters
+
+add code in `search<>` tag 
+```xml
+<filter name = "filter_male" string="Male" domain="[('gender','=','male')]"/>
+<filter name = "filter_female" string="Female" domain="[('gender','=','female')]"/>
+```
+> ဒီလို ထည့်လိုက်မယ်ဆိုရင် male or female select မှတ်ပြီးရှာလို့ရတယ်
+
+**Add Speatator**
+```xml
+<filter name = "filter_male" string="Male" domain="[('gender','=','male')]"/>
+<separator/>
+<filter name = "filter_female" string="Female" domain="[('gender','=','female')]"/>
+```
+`<separator/>` ပါရင်  record မှာ male ရော female ရော ပါတာကို ရှာတာမျိုးဖြစ်တယ်
+> [!NOTE]
+> sample code like this `<filter name = "filter_kids" string="Kids" domain="[('age','&lt;=','5')]"/>`
+
+## How To Add Group By Options
+code:
+```xml
+<group expand="0" string="Group By">
+                        <filter name="group_by_gender" string="Gender" context="{'group_by':'gender'}"/>
+                        <filter name="group_by_age" string="Adult" domain="[('age','&lt;=','5')]" context="{'group_by':'age'}"/>
+                    </group>
+```
+groupအလိုက်ပြတာ မိုက်တော့မိုက်တယ်
+
+
 
 
 
