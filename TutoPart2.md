@@ -31,16 +31,17 @@ add this code in guest_view.xml
 
 ```xml
 <form>
-                    <sheet>
-                        <group><group>
-                            <field name = "name"/>
-                            <field name = "age"/>
-                        </group>
-                        <group>
-                            <field name = "gender"/>
-                        </group>
-                        </group>
-                    </sheet>
-                </form>
+    <sheet>
+        <group>
+            <group>
+                <field name = "name"/>
+                <field name = "age"/>
+            </group>
+            <group>
+                <field name = "gender"/>
+            </group>
+        </group>
+    </sheet>
+</form>
 ```
 
