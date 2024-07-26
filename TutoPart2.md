@@ -130,6 +130,29 @@ code:
 ```
 groupအလိုက်ပြတာ မိုက်တော့မိုက်တယ်
 
+# How To Add Archive and Unarchive Options
+
+> [!CAUTION]
+>tutorial is unavailable in this chapter
+ to study [youtube](https://www.youtube.com/watch?v=wNRONFlI3xo&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=15)
+
+
+------------
+# How To Apply Domain For Menu In Odoo
+> [!CAUTION]
+>tutorial is unavailable in this chapter
+ to study [youtube](https://www.youtube.com/watch?v=AqlXJVUYshs&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=16)
+
+------------
+
+
+
+# How To Set Default Value Using Context In Odoo
+> [!CAUTION]
+>tutorial is unavailable in this chapter
+ to study [youtube](https://www.youtube.com/watch?v=AqlXJVUYshs&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=17)
+
+
 
 
 
