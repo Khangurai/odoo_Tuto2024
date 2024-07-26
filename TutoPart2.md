@@ -70,6 +70,36 @@ and then you add the record u'll see  `(form view)`
      </record>
 ```
 
+------------
+
+# How To Define Search View In Odoo
+
+add serarch tag in guest_view.xml
+
+```xml
+<record id="view_hotel_guest_search" model="ir.ui.view">
+            <field name="model">hotel.guest.search</field>
+            <field name="model">hotel.guest</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name = "name" string="Guest Name" filter_domain="['|',('name','ilike',self),('age','ilike',self),('code','ilike',self)]"/>
+                    <field name = "code"/>
+                    <field name = "age"/>
+                    <field name = "gender"/>
+                </search>
+            </field>
+    </record>
+```
+
+- search view က search bar မှာ ရှာလို့ရအောင် လုပ်ပေးတယ်
+- ရှာစေချင်တဲ့ attribute တွေကို search tag ထဲမှာ ထည့်ပေးရုံပဲ့
+
+if you want to search multiple search attribute 
+just add **`filter domain`**  code like this 
+
+```xml
+<field name = "name" string="Guest Name" filter_domain="['|',('name','ilike',self),('age','ilike',self),('code','ilike',self)]"/>
+```
 
 
 
