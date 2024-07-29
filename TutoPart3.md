@@ -114,6 +114,72 @@ add `related`
 `readonly=False` >>>> ***To edit***
 
 ------------
+# How To Create Computed Field for datetime to age converter
+
+in guest.py add class
+
+```python
+def _compute_age(self):
+	for rec in self:
+		today = date.today()
+		if rec.date_of_birth:
+			dob = fields.Date.from_string(rec.date_of_birth)  # Convert to datetime.date
+			age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
+			rec.age = age
+			else:
+				rec.age = 0
+```
+
+add `compute='_compute_age'`
+```
+age = fields.Integer(string='Age', compute='_compute_age', tracking=True)
+```
+and you can change  in guest_view.xml form view to view the field tab
+
+if you want to directly answer to calculate age without save button 
+
+`@api.depends('date_of_birth')`
+
+------------
+
+# How To Define Onchange Functions
+
+in appointment.py add...
+```python
+@api.onchange('guest_id')
+    def onchange_guest_id(self):
+        if self.guest_id:
+            self.ref = self.guest_id.ref
+```
+
+`ref` means field name so instead the name as you want to
+
+`Onchange Functions` means you can link the data from primary model to another models
+
+# How to rename field from view ....
+in postgres type qurery
+```query
+delete from select_model;
+```
+select_model = `hotel_appointment`
+
+and change run configuration on pycharm
+`-c conf/odoo.conf -u hotel_B`
+
+restart the server 
+
+and now u'll see the results
+
+
+------------
+
+
+
+
+
+
+
+
 
 
 
