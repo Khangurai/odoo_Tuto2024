@@ -82,4 +82,21 @@ To view time with  am pm
 - go to settings\translation\languages
 - add time format `%p`
 
+------------
+
+
+# How To Set Default Values For Fields
+
+just add appointment.py(Models file)
+
+```python
+appointment_time = fields.Datetime(string='Appointment Time', default=fields.Datetime.now)
+```
+this is time default values `default=fields.Datetime.now`
+
+if you can add `default='odoo'`
+
+------------
+
+
 
