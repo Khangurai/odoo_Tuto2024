@@ -98,5 +98,26 @@ if you can add `default='male'`
 
 ------------
 
+# How To Add Related Fields
+
+- **field ပြင်ချင်ရင် models မှာသွားပြင် **
+- **ပြီးတော့ xml view မှာ သွားပြောင်း**
+
+in appointment.py
+
+```python
+gender = fields.Selection(related='guest_id.gender', readonly=False)
+```
+
+add `related`
+
+`readonly=False` >>>> ***To edit***
+
+------------
+
+
+
+
+
 
 
