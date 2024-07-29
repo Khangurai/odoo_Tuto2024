@@ -94,7 +94,7 @@ appointment_time = fields.Datetime(string='Appointment Time', default=fields.Dat
 ```
 this is time default values `default=fields.Datetime.now`
 
-if you can add `default='odoo'`
+if you can add `default='male'`
 
 ------------
 
