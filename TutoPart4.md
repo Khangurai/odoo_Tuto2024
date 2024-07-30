@@ -64,6 +64,26 @@ add xml format to view
 
 ------------
 
+# How To Add Buttons
+
+## Show Confirmation Message On Button Click
+
+# How To Add Help Messages For Fields And Buttons
+
+# How To Fix Compute Method Failed To Assign Value Error
+
+# Rainbow Effect
+
+# Badge Widget And Decorations
+
+# How To Give Color For Tree View Records
+
+# Widget List Activity In Odoo
+
+# Dynamic Tree View
+
+# Many2one Avatar And Many2One Avatar User Widget 
+
 
 
 
