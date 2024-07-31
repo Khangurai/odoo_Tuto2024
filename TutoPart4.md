@@ -84,9 +84,13 @@ add xml format to view
 
 # Many2one Avatar And Many2One Avatar User Widget 
 
+add field in appointment.py not working
+
 # odoo module auto update command
 
 go to pycharm \edit configuration\ type `-c conf/odoo.conf -u hotel_B`
+
+#
 
 
 
