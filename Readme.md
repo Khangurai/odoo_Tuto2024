@@ -136,7 +136,7 @@ add path to manifest file
 
 ဒီအထိကမပေါ်သေးဘူး  menu မှာ 
 
-`menu`မှာပေါ်ချင်ရင်settings\user interface\menu items မှာပြင်ပေးမှ ရမယ်
+`menu`မှာပေါ်ချင်ရင်settings\techinal\user interface\menu items မှာပြင်ပေးမှ ရမယ်
 
 check this [youtube](https://www.youtube.com/watch?v=jdsP7RQ-8Hs&list=PLqRRLx0cl0hoZM788LH5M8q7KhiXPyuVU&index=7) how to create sub menu
 
