@@ -121,9 +121,9 @@ in xml file
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem id=""
-              name=""
-              sequence="0"/>
+    <menuitem id="menu_hotel_root"
+             name="Hotel"
+             sequence="0"/>
 
 </odoo>
 ```
