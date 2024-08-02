@@ -18,6 +18,20 @@ in sale_order_view.xml
 </odoo>
 
 ```
+sale_order.py
+```python
+from odoo import api, fields, models
+
+class SaleOrder(models.Model):
+    _inherit = 'sale.order'
+
+
+    name = fields.Char(string='Name', required=True)
+
+    confirmed_user_id = fields.Many2one('res.users', string='Confirmed User')
+
+```
+
 
 check in sale order module
 
