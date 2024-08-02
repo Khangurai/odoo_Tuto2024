@@ -90,7 +90,13 @@ add field in appointment.py not working
 
 go to pycharm \edit configuration\ type `-c conf/odoo.conf -u hotel_B`
 
-#
+# Create Module Using Scaffold Command In Odoo
+
+in terminal 
+```
+D:\odoo_dev\odoo_version\venu\Scripts\python.exe .\odoo-bin scaffold hotel_B_inheritence D:\odoo_dev\odoo_version\15\custom_module
+```
+
 
 
 
