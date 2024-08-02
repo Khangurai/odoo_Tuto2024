@@ -97,6 +97,10 @@ in terminal
 D:\odoo_dev\odoo_version\venu\Scripts\python.exe .\odoo-bin scaffold hotel_B_inheritence D:\odoo_dev\odoo_version\15\custom_module
 ```
 
+to create module with command
+```
+D:\odoo_dev\odoo_version\venu\Scripts\python.exe .\odoo-bin scaffold hotel_test D:\odoo_dev\odoo_version\15\custom_module
+```
 
 
 
